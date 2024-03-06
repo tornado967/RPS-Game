@@ -1,0 +1,71 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: Arial;
+    margin: 8px;
+}
+.title{
+    color: white;
+    font-size: 30px;
+    font-family: Arial;
+    font-weight: 700;
+    margin: 30px 0;
+}
+
+.shapes{
+    background-color: black;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    border: 3px white solid;
+    margin-right: 10px;
+}
+
+.shape{
+    height: 50px;
+}
+
+.result{
+    margin: 50px 0 25px 0;
+    font-weight: 700;
+    font-size: 25px;
+    font-family: Arial;
+}
+
+.game{
+    margin: 16px 0;
+}
+
+.score{
+    margin: 60px 0 16px 0;
+}
+
+.reset, .autoPlay{
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+}
+.confirmation-msg{
+    display: none;
+}
+
+.confirmation-msg2{
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+.confirmation-msg-yes, .confirmation-msg-no{
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    padding: 8px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 5px 10px;
+}
